@@ -26,7 +26,7 @@ const Navigation = () => {
             <Nav.Link as={Link} to="/about">
               About
             </Nav.Link>
-            <NavDropdown title="Hi, Cunt" id="basic-nav-dropdown">
+            <NavDropdown title="Hi, Vinh" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Dashboard</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Logout</NavDropdown.Item>
             </NavDropdown>

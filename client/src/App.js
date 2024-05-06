@@ -9,18 +9,24 @@ import Dashboard from "./components/Dashboard";
 import Login from "./components/Login";
 import EventDetails from "./components/EventDetails";
 import Footer from "./components/Footer";
+import EventsManagement from "./components/EventsManagement";
+import Members from "./components/Members";
 function App() {
   return (
     <div className="body_container">
       <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/event/details" element={<EventDetails />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-      </Routes>
+      <div className="body_main">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/event/details" element={<EventDetails />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/events/management" element={<EventsManagement />} />
+          <Route path="/members/management" element={<Members />} />
+        </Routes>
+      </div>
       <Footer />
     </div>
   );
