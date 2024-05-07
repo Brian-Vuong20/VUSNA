@@ -11,6 +11,8 @@ import EventDetails from "./components/EventDetails";
 import Footer from "./components/Footer";
 import EventsManagement from "./components/EventsManagement";
 import Members from "./components/Members";
+import AddEvent from "./components/AddEvent";
+import MemberRegister from "./components/MemberRegister";
 function App() {
   return (
     <div className="body_container">
@@ -25,6 +27,8 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/events/management" element={<EventsManagement />} />
           <Route path="/members/management" element={<Members />} />
+          <Route path="/add/events" element={<AddEvent />} />
+          <Route path="/member/register" element={<MemberRegister />} />
         </Routes>
       </div>
       <Footer />

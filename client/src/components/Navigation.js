@@ -34,7 +34,7 @@ const Navigation = () => {
               <NavDropdown.Item as={Link} to="/login">
                 Login
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/member/register">
                 Become a member
               </NavDropdown.Item>
             </NavDropdown>
